@@ -2,9 +2,9 @@ import type { WaitForOptions } from '../../types'
 
 /**
  *
- * Wait for an element (selected by css selector) for the provided amount of
- * milliseconds to be (dis/en)abled. If multiple elements get queried by given
- * selector, it returns true if at least one element is (dis/en)abled.
+ * Wait for an element for the provided amount of
+ * milliseconds to be enabled or disabled. If multiple elements get queried by given
+ * selector, it returns true if at least one element is enabled or disabled.
  *
  * :::info
  *
